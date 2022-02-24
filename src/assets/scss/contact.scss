@@ -1,0 +1,69 @@
+.contact-section{
+    background: #383838;
+    color: #eee;
+
+    .container{
+        padding: 100px 0;
+        max-width: 1000px;
+
+        h1{
+            font-size: 2.5rem;
+            font-family: 'Poiret One', cursive;
+            font-weight: 100;
+    
+            &:after {
+                content: '';
+                width: 150px;
+                height: 2px;
+                background-color: #eee;
+                display: block;
+                margin: 11px 20px;
+            }
+        }
+
+        .form-contact{
+            grid-template-columns: 1fr 1fr;
+            column-gap: 25px;
+
+            .two-column-grid{
+                column-gap: 25px;
+                row-gap: 25px;
+
+                input{
+                    padding: 5px;
+                    border: none;
+                }
+            }
+
+            textarea{
+                margin-top: 25px;
+                width: 100%;
+                padding: 5px;
+            }
+
+            button{
+                background-image: linear-gradient(to top, #f7c120 ,#ffdf81);
+                padding: 16px 17px;
+                font-weight: bold;
+                border: none;
+                color: #fff;
+                border-radius: 5px;
+                margin-top: 25px;
+            }
+
+            .map{
+                hr{
+                    border-bottom: 2px solid #eee;
+                }
+
+                p{
+                    a{
+                        text-decoration: none;
+                        color: #eee;
+                        padding-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

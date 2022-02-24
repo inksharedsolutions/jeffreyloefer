@@ -1,0 +1,72 @@
+.banner-section{
+    height: 85vh;
+    overflow: hidden;
+
+    .banner-text{
+        background: #40404059;
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 75%;
+        padding: 196px 0 0 64px;
+
+        .line{
+            border-bottom: 1px solid #eee;
+            max-width: 252px;
+            width: 100%;
+        }
+
+        h2{
+            font-family: 'Nanum Myeongjo', serif;
+            color: white;
+            font-size: 6vw;
+        }
+
+        p{
+            color: #b7aeae;
+            margin-bottom: 31px;
+        }
+
+        a{
+            text-transform: uppercase;
+            border: 1px solid white;
+            padding: 15px 29px;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+
+            &:hover{
+                border: 1px solid #fdd55e;
+                background: #fdd55e;
+                transition: 0.3s;
+            }
+        }
+    }
+}
+
+// non-front-banner
+.non-front-banner {
+    background-image: url(../../images/banner_non_front.jpg);
+    height: 360px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 2px solid #f5e1a7;
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+    }
+
+    h2{
+        font-size: 60px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        color: #fffe;
+        text-align: center;
+        margin: 0;
+    }
+}

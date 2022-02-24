@@ -1,0 +1,34 @@
+// 1200px
+// 1024px
+// 900px
+// 768px
+// 600px
+// 480px
+// 320px
+
+@media screen and (max-width: 1300px){
+    .container, .author-page, .contact-section{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media screen and (max-width: 999px){
+    .navigation{
+        width: 100%;
+        ul{
+            display: none;
+        }
+
+        .burger-nav{
+            display: block;
+        }
+    }
+
+    .banner-section{
+        height: auto;
+        .banner-text{
+            height: auto;
+        }
+    }
+}
