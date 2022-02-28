@@ -3,6 +3,8 @@ import React from 'react';
 
 import Logo from '../images/main-logo.png';
 
+import Burger from './burger-nav';
+
 const Nav = () => {
     return(
         <>
@@ -20,6 +22,8 @@ const Nav = () => {
                         </ul>
                     </div>
                 </div>
+
+                <Burger />
             </div>
         </>
     )

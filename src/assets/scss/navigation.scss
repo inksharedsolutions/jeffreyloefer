@@ -17,23 +17,39 @@
             }
         }
     }
+    
+}
 
-    .burger-nav{
-        display: none;
-        color: #eee;
+.burger-nav{
+    display: none;
+    color: #eee;
 
-        .burger{
-            background-color: #212529;
+    .burger{
+        background-color: #212529;
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+    }
+
+    .burger-nav-links{
+        display: block;
+        background-color: rgba(0, 0, 0, 0.89);
+        position: absolute;
+        width: 35%;
+        height: 100vh;
+        top: 0;
+        padding: 100px 25px 0;
+        text-align: left;
+        position: fixed;
+        // transition: display 1s ease-in-out;
+
+        li{
+            padding: 25px 0;
+            margin: 0;
             
-            display: flex;
-            justify-content: center;
-            padding: 15px;
-        }
-
-        .burger-nav-links{
-            height: 100%;
-            background-color: red;
-            width: 25%;
+            a{
+                font-size: 24px;
+            }
         }
     }
 }
