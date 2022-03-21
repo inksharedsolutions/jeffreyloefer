@@ -1,14 +1,14 @@
 .banner-section{
-    height: 85vh;
+    max-height: 85vh;
     overflow: hidden;
 
     .banner-text{
         background: #40404059;
         position: absolute;
         top: 0;
-        height: 100%;
+        height: calc(100% - 15vh);
         width: 75%;
-        padding: 196px 0 0 64px;
+        padding: 15% 0 0 64px;
 
         .line{
             border-bottom: 1px solid #eee;

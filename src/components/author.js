@@ -7,15 +7,18 @@ import AuthorImg from '../images/jeffreyloefer.jpg';
 
 const Author = () => {
     return(
-        <div className="author-section">
+        <div className="author-section" id="author-content">
             <div className="container">
-                <img 
+                <a href="#author-content">
+                    <img 
                     src={Arrow} 
                     alt="arrow-down" 
                     className="arrow-down" />
+                </a>
+                
                     
                 <h2>The Author</h2>
-                <div className="author-content">
+                <div className="author-content" >
                     <div className="bio">
                         <span>April 3 / Author</span>
                         

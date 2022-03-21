@@ -72,7 +72,7 @@
                 line-height: 1.5;
                 color: #495057;
                 background-clip: padding-box;
-                width: 81%;
+                width: calc(100% - 148px);
                 transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
             }
     

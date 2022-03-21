@@ -6,7 +6,7 @@
 // 480px
 // 320px
 
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 1200px){
     .container, .author-page, .contact-section{
         padding-left: 5%;
         padding-right: 5%;
@@ -25,9 +25,16 @@
         }
     }
 
-    
-
     .banner-section{
-        height: auto;
+        .banner-text{
+            height: auto;
+            // transform: translate(50%, 50%);
+            // -webkit-transform: translate(20%, 34%);
+            padding: 50px;
+            top: 25%;
+            left: 21%;
+            width: auto;
+        }
     }
 }
+
