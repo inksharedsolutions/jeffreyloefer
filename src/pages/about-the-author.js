@@ -13,8 +13,8 @@ const Author = () => {
     return(
         <>
             <Seo title="About the Author" />
-            <Social />
             <Nav />
+            <Social />
             <Banner title="ABOUT THE AUTHOR"/>
             <div className="author-page">
                 <div className='container'>

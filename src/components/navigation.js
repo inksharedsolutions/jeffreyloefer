@@ -15,10 +15,10 @@ const Nav = () => {
                     </div>
                     <div className='nav-links'>
                         <ul>
-                            <li><Link to="/">HOME</Link></li>
-                            <li><Link to="/about-the-book">ABOUT THE BOOK</Link></li>
-                            <li><Link to="/about-the-author">ABOUT THE AUTHOR</Link></li>
-                            <li><Link to="/contact">CONTACT</Link></li>
+                            <li className="nav-link"><Link to="/">HOME</Link></li>
+                            <li className="nav-link"><Link to="/about-the-book">ABOUT THE BOOK</Link></li>
+                            <li className="nav-link"><Link to="/about-the-author">ABOUT THE AUTHOR</Link></li>
+                            <li className="nav-link"><Link to="/contact">CONTACT</Link></li>
                         </ul>
                     </div>
                 </div>

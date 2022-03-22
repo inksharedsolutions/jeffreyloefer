@@ -12,7 +12,7 @@ const Newsletter = () => {
     return(
         <>
             <div className="newsletter">
-                <div className='two-column-grid'>
+                <div className='two-column-grid' id="news">
                     <div className='events'>
                         <h2><FontAwesomeIcon icon={faCartShopping} /> Where To Buy</h2>
                         <div className='two-column-grid'>

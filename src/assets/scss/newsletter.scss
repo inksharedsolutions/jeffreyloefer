@@ -4,7 +4,8 @@
 
     .two-column-grid{
         display: grid;
-        grid-template-columns: 30% 70%;
+        grid-template-columns: 35% 65%;
+        margin-inline: auto;
     }
 
     .events{
@@ -29,10 +30,11 @@
         }
 
         .two-column-grid{
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: repeat(2, 1fr);
             align-items: center;
             img{
                 width: 250px;
+                margin-inline: auto;
             }
         }
 

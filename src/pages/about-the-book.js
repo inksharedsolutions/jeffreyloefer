@@ -21,8 +21,8 @@ const Book = (props) => {
     return(
         <>
             <Seo title="About the Book" />
-            <Social />
             <Nav />
+            <Social />
             <Banner title="ABOUT THE BOOK"/>
             <div className="book-section">
                 <div className='container'>

@@ -28,12 +28,79 @@
     .banner-section{
         .banner-text{
             height: auto;
-            // transform: translate(50%, 50%);
-            // -webkit-transform: translate(20%, 34%);
             padding: 50px;
             top: 25%;
             left: 21%;
             width: auto;
+        }
+    }
+
+    .non-front-banner {
+        .container{
+            h2{
+                font-size: 2.5rem;
+            }
+        }
+    }
+
+    .featured-book{
+        .container{
+            .book-content{
+                h1{
+                    font-size: 50px;
+                }
+            }
+        }
+    }
+
+    .newsletter{
+        #news{
+            grid-template-columns: 1fr;
+        }
+    }
+}
+
+@media screen and (max-width: 768px){
+    .author-section{
+        .container{
+            .author-content{
+                flex-direction: column-reverse;
+                justify-content: center;
+                align-items: center;
+                row-gap: 50px;
+
+                .author-img img{
+                    box-shadow: none;
+                }
+
+                .bio{
+                    padding: 5%;
+                }
+            }
+        }
+    }
+
+    .featured-book{
+        .container{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            #book-cover{
+                top: 0;
+                width: 300px;
+            }
+
+            .book-content{
+                margin: 0;
+            }
+        }
+    }
+
+    .footer{
+        .four-column-grid{
+            grid-template-columns: auto !important;
+            text-align: center;
         }
     }
 }
